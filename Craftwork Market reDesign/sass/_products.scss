@@ -1,0 +1,264 @@
+.products {
+	&__list {
+		display: grid;
+		// grid-template-rows: repeat(auto-fill, min-content);
+		grid-gap: 3rem;
+		&--featured {
+			grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+		}
+		&--recent {
+			grid-template-columns: repeat(auto-fit, minmax(31.5rem, 1fr));
+		}
+	}
+
+	&__explore {
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-items: end;
+	}
+}
+
+.engagement {
+    --variable-color: $color-blue;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+	grid-gap: 3rem;
+}
+
+.underlined {
+    box-shadow: inset 0 -2.5rem 0 0 $color-orange;
+}
+
+.product {
+	&__card {
+		min-height: 43rem;
+
+		border-radius: 2px;
+		background-color: $color-background-card;
+		padding: 30%;
+
+		// width: 856 - 571
+		// height: 645 - 445
+		// height = 75% of width
+
+		transition: all 0.4s;
+
+		// display: grid;
+		&--wide {
+			grid-area: span 1 / span 2;
+		}
+
+		&--slim {
+			grid-area: span 1 / span 1;
+		}
+
+		// Used with wide card
+		&--featured-product {
+			background-color: $color-blue;
+			color: #fff;
+			padding: 2.5rem;
+
+			display: grid;
+			grid-template-rows: 1fr minmax(10rem, max-content);
+			grid-gap: 5rem;
+		}
+
+		// Used with slim card
+		&--recent-product {
+			background-color: $color-orange;
+			padding: 2rem;
+
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr minmax(10rem, max-content);
+			grid-gap: 3rem;
+
+			.product__price {
+				grid-column: 1 / span 1;
+				grid-row: 1 / span 1;
+				align-self: start;
+				justify-self: start;
+			}
+
+			.product__icon--bookmark {
+				grid-row: 1 / span 1;
+				grid-column: 2 / span 1;
+			}
+
+			.product__detail {
+				grid-row: 2 / -1;
+				grid-column: 1 / -1;
+			}
+		}
+
+		&--subscribe {
+			background-color: $color-background;
+			cursor: pointer;
+			border: 2px solid $color-background-card;
+			padding: 4.2rem;
+
+			&-blue {
+				border: 2px solid $color-blue;
+			}
+		}
+
+		&--newsletter {
+			padding: 4.2rem;
+			border: 2px solid $color-background-card;
+			background-color: $color-background;
+		}
+
+		&:hover {
+			transform: translateY(-1rem) scale(1.02);
+			box-shadow: 0 0.5rem 5rem rgba(#000, 0.3);
+		}
+
+		&--subscribe:hover {
+			box-shadow: 0 -0.5rem 5rem rgba($color-orange, 0.5);
+		}
+	}
+
+	&__icon {
+		&--bookmark {
+			height: 5rem;
+			width: 5rem;
+			padding: 1.2rem 1rem;
+			background-color: $color-background;
+			// border: 2px solid $color-text;
+			border-radius: 0.7rem;
+
+			transition: all 0.4s;
+			cursor: pointer;
+		}
+
+		&-dollar {
+			&--subscribe {
+				height: 12rem;
+                width: 8rem;
+			}
+
+			&--info {
+				height: 2.6rem;
+				width: 2rem;
+				font-weight: 700;
+				fill: currentColor;
+			}
+		}
+
+		&--detail {
+			height: 3rem;
+			width: 3rem;
+			margin-left: 0.3rem;
+		}
+	}
+
+	&__detail {
+		background-color: $color-background;
+		border-radius: 0.7rem;
+		padding: 1.5rem 2rem;
+
+		&--slim {
+			padding: 2rem 2.5rem 3rem 2.5rem;
+		}
+		&--wide {
+			align-items: end;
+
+			display: grid;
+			grid-template-columns: 4fr 1fr;
+			grid-template-rows: max-content min-content;
+			grid-gap: 1rem;
+
+			& :nth-child(2) {
+				cursor: pointer;
+			}
+			& :nth-child(2n) {
+				justify-self: end;
+			}
+		}
+
+		&--subscribe {
+			padding-right: 2rem;
+
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+			grid-template-rows: min-content min-content;
+			grid-column-gap: 3rem;
+
+			align-items: end;
+
+			.heading-2 {
+				justify-self: end;
+				grid-row: 1 / -1;
+                align-content: end;
+			}
+
+			.product__icon--detail {
+				grid-column: 2 / -1;
+				align-self: start;
+
+				height: 5rem;
+                width: 5rem;
+                
+                justify-self: center;
+			}
+
+			.heading-3 {
+				grid-row: 2 / -1;
+                grid-column: 2 / -1;
+                justify-self: start;
+            }
+            
+            &-blue {
+                .heading-2 {
+                    color: $color-blue;
+                    fill: $color-blue;
+                }
+                .product__icon--detail {
+                    fill: $color-blue;
+                    color: $color-blue;
+
+                    height: 8rem;
+                    width: 8rem;
+                }
+            }
+		}
+		// TODO: Design the link inside the heading, price and the logos of tools
+	}
+
+	&__price {
+		cursor: pointer;
+		background-color: $color-background;
+		padding: 0 1.5rem;
+		border-radius: 0.5rem;
+
+		&--blue {
+			color: $color-blue;
+		}
+	}
+}
+
+.icon__container {
+	cursor: pointer;
+
+	&--top-left {
+		align-self: start;
+		justify-self: start;
+	}
+
+	&--top-right {
+		align-self: start;
+		justify-self: end;
+	}
+
+	& .product__icon--full {
+		display: none;
+	}
+
+	&:hover .product__icon--clear {
+		display: none;
+	}
+
+	&:hover .product__icon--full {
+		display: block;
+	}
+}

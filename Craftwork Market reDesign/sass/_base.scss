@@ -1,0 +1,60 @@
+// COLOR VARIABLES
+$color-primary: #c69963;
+$color-primary-dark: #B28451;
+
+$color-secondary: #101d2c;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #54483A;
+$color-grey-dark-2: #6D5D4B;
+
+$color-background: #EAEDF8;
+$color-background-card: #D1D6E4;
+$color-background-footer: #E1E4F0;
+
+$color-text: #000;
+$color-sub-text: #9C9FB0;
+
+$color-blue: #3957F1;
+$color-orange: #F08866;
+
+$color-blue-dark: #453AEB;
+$color-grey-dark: #8C8E94;
+$color-grey-light: #DEE3EF;
+$color-footer-text: #999dad;
+
+// FONT VARIABLES
+$font-primary: 'Noto Sans', sans-serif;
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+    background-color: $color-background;
+	font-family: $font-primary;
+    color: $color-text;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.site {
+    max-width: 70vw;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-rows: [header-start] min-content [header-end content-start] repeat(6, min-content);
+    grid-gap: 1rem;
+}

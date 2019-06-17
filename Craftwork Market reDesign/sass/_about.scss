@@ -1,0 +1,22 @@
+.customers {
+    margin: 7rem 0;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-column-gap: 5rem;
+    align-items: center;
+
+    &__logos {
+        // justify-self: end;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        grid-gap: 3rem;
+        // justify-items: end;
+        // justify-content: end;
+    }
+
+    &__icon {
+        width: 100%;
+        height: 4rem; 
+        filter:  brightness(60%);
+    }
+}

@@ -1,0 +1,44 @@
+.footer {
+	background-color: $color-background-footer;
+
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+
+	&__about--text {
+		color: $color-footer-text;
+		font-size: 1.8rem;
+	}
+
+	&__content {
+		max-width: 70vw;
+		margin: 0 auto;
+
+		display: grid;
+		grid-template-columns: minmax(min-content, 50rem) repeat(
+				auto-fit,
+				minmax(19rem, 1fr)
+			);
+		grid-template-rows: min-content min-content;
+		grid-gap: 2rem;
+	}
+
+	&__list {
+		list-style: none;
+	}
+
+	&__item {
+		margin: 0.7rem 0;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: $color-footer-text;
+		font-weight: 400;
+		font-size: 1.6rem;
+	}
+
+	&__copyright {
+		color: $color-footer-text;
+		font-size: 1.6rem;
+	}
+}

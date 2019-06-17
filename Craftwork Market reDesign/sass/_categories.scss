@@ -1,0 +1,40 @@
+.categories {
+    padding: 3.5rem 0;
+    border-top: 2px solid $color-background-card;
+    border-bottom: 2px solid $color-background-card;
+
+	&__list {
+		list-style: none;
+		display: grid;
+        grid-template-columns: max-content max-content max-content max-content 1fr;
+        grid-column-gap: 4rem;
+        align-items: center;
+    }
+    
+    &__link--icon {
+        justify-self: end;
+    }
+
+	&__link:link,
+	&__link:visited {
+		text-decoration: none;
+		color: $color-blue;
+        font-size: 1.8rem;
+        font-weight: 700;
+        display: block;
+        transition: all .4s;
+    }
+    
+    &__link:hover,
+    &__link:active {
+        color: $color-blue-dark;
+        transform: translateY(-.3rem) scale(1.05);
+    }
+
+    &__icon {
+        height: 2rem;
+        width: 2rem;
+        justify-self: end;
+        margin-right: .5rem;
+    }
+}
