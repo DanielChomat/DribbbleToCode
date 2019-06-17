@@ -43,27 +43,30 @@ This is the second Dribbble I will be working on
 
 - [Syntax.fm](https://syntax.fm/) - Encouragemenet in developing and publishing my code
   - A podcast from Wes Bos and Scott Tolinski that got me hyped on website design and development
-- Udemy courses by Jonas Schmedtmann on CSS and SASS
+- Udemy courses by **Jonas Schmedtmann** on `CSS` and `SASS`
   1. [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
   2. [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)
   - _Main references of learning `CSS` and `SCSS` for me_
   - Also used his `package.json` file for updating, processing and building the `CSS`
-  - Thank you!
+  - **Thank you!**
+- [CSS GRID course from Wes Bos](https://cssgrid.io/) - First lookthrough the `CSS Grid` technology
+- Some more resources i find on the internet while coding
 
 ## Tools Used
 
-- Windows machine
-- Windows Subsystem for Linux (WSL)
-- VS Code 
-- npm
-  - node-sass
-  - autoprefixer
-  - concat
-  - live-server
-  - npm-run-all
-  - postcss-cli
-- SourceTree for Git stuff
-- mainly Chrome | Firefox Developer Edition for `CSS Grid` stuff
+- Windows 10 machine
+- Windows Subsystem for Linux (`WSL`)
+- `VS Code` 
+- `npm`
+  - `node-sass`
+  - `autoprefixer`
+  - `concat`
+  - `live-server`
+  - `npm-run-all`
+  - `postcss-cli`
+- `SourceTree` for Git stuff
+- mainly `Chrome` | `Firefox Developer Edition` for `CSS Grid` stuff
+- `Trello` for (sort of an) organization in my projects
 
 ## Disclaimer
 
