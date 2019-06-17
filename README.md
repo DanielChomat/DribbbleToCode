@@ -6,9 +6,9 @@ Basically to converting PSDs to HTML and CSS.
 
 This project is mainly meant to be used as part of my portfolio for participation in my next employment/projects.
 
-Occasionally, I will be putting here projects, that I've been working on outside of Dribbble.
+Occasionally, I will be putting here projects, I've been working on outside of Dribbble.
 
-![Craftwork Market]("Craftwork Market Redesign/template.png")
+![Craftwork Market](/Craftwork Market Redesign/template.png)
 
 ### Markdown
 
