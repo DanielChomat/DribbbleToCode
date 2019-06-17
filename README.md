@@ -1,4 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to Dribbble To Code
+
+I have decided to start on a project in which I am going to be recreating some website designs from [Dribbble](https://dribbble.com) to learn website design and coding in general. Basically to convert PSDs to HTML and CSS.
+
+This project is mainly meant to be used as part of my portfolio for participation in my next employment/projects.
+
+Occasionally, I will be putting here projects, that I've been working on outside of Dribbble.
 
 You can use the [editor on GitHub](https://github.com/Daniiik/DribbbleToCode/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
