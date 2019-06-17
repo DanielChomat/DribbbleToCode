@@ -2,7 +2,7 @@
 
 # Welcome to Dribbble To Code
 
-My name is Daniel, a junior web developer, coder and designer(a maybe on that last one).
+I am Daniel, a junior web developer, coder and designer(a maybe on that last one) from :czech_republic:.
 
 I have decided to start a project in which I am going to be recreating some website designs from [Dribbble](https://dribbble.com) to _learn_ and _progress_ in **coding**, **website design** and **UX** in general. 
 
@@ -56,6 +56,15 @@ This is the second Dribbble I will be working on
 - [CSS GRID course from Wes Bos](https://cssgrid.io/) - First lookthrough the `CSS Grid` technology
 - Some more resources i find on the internet while coding
 
+## Disclaimer
+
+> Still learning with `GIT` so pardon all those initial commits :blush:
+
+> I have **not created** any of these designs, nor am I in any way associated with the creators, so all the **rights** and **props** go to the creators on Dribbble!  
+> If you like their design, be sure to like their work on Dribbble or any other platform they are on!
+
+> _**All rights go to the creators of the Dribbbles! Please, do not just blindly copy the design. Thank you!**_
+
 ## Tools Used
 
 - Windows 10 machine
@@ -72,12 +81,7 @@ This is the second Dribbble I will be working on
 - mainly `Chrome` | `Firefox Developer Edition` for `CSS Grid` stuff
 - `Trello` for (sort of an) organization in my projects
 
-## Disclaimer
 
-> I have **not created** any of these designs, nor am I in any way associated with the creators, so all the **rights** and **props** go to the creators on Dribbble!  
-> If you like their design, be sure to like their work on Dribbble or any other platform they are on!
-
-> _**All rights go to the creators of the Dribbbles! Please, do not just blindly copy the design. Thank you!**_
 
 
 
