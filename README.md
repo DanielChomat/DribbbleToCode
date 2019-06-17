@@ -41,7 +41,7 @@ This is the second Dribbble I will be working on
 
 ### Links 
 
-- [Doorep landing page](https://dribbble.com/shots/3707539-Doorep-landing-page)
+- [Dribbble](https://dribbble.com/shots/3707539-Doorep-landing-page)
 
 ## Key References
 
