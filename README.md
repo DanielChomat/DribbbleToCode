@@ -29,6 +29,8 @@ I have finally got an opportunity to practice my **CSS Grid** knowledge. This te
 
 ### Main keys not yet implemented (TO-DO)
 
+- [ ] Clean your code!
+- [ ] COMMENT YOUR CODE!
 - [ ] Not responsive for all screen sizes
 - [ ] CSS Grid is not optimized for IE 10/11
 
@@ -37,21 +39,38 @@ I have finally got an opportunity to practice my **CSS Grid** knowledge. This te
 This is the second Dribbble I will be working on
 
 
-# Key References
+## Key References
 
 - [Syntax.fm](https://syntax.fm/) - Encouragemenet in developing and publishing my code
   - A podcast from Wes Bos and Scott Tolinski that got me hyped on website design and development
 - Udemy courses by Jonas Schmedtmann on CSS and SASS
-  - [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
-  - [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)
+  1. [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/advanced-css-and-sass/)
+  2. [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)
   - _Main references of learning `CSS` and `SCSS` for me_
+  - Also used his `package.json` file for updating, processing and building the `CSS`
+  - Thank you!
 
-### Disclaimer
+## Tools Used
 
-> I have **not created** any of these designs**, so all the **rights** and **props** go to the creators on Dribbble!  
+- Windows machine
+- Windows Subsystem for Linux (WSL)
+- VS Code 
+- npm
+  - node-sass
+  - autoprefixer
+  - concat
+  - live-server
+  - npm-run-all
+  - postcss-cli
+- SourceTree for Git stuff
+- mainly Chrome | Firefox Developer Edition for `CSS Grid` stuff
+
+## Disclaimer
+
+> I have **not created** any of these designs, nor am I in any way associated with the creators, so all the **rights** and **props** go to the creators on Dribbble!  
 > If you like their design, be sure to like their work on Dribbble or any other platform they are on!
 
-> _**All rights go to the creators of the Dribbbles! Do not please just blindly copy the design. Thank you!**_
+> _**All rights go to the creators of the Dribbbles! Please, do not just blindly copy the design. Thank you!**_
 
 
 
