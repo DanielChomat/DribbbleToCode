@@ -10,13 +10,13 @@ This project is mainly meant to be used as part of my portfolio for participatio
 
 Occasionally, I will be putting here projects, I've been working on outside of Dribbble.
 
-##[Craftwork Market | reDesign](https://dribbble.com/shots/6298606-Craftwork-Market-reDesign)
+## [Craftwork Market | reDesign](https://dribbble.com/shots/6298606-Craftwork-Market-reDesign)
 
 This is the first Dribbble I have decided to work on. It is pretty basic, but very nicely done.
 
 I have finally got an opportunity to practice my CSS Grid knowledge. This technology is awesome, and therefore may be overused in this project.
 
-###Main keys not implemented (TO-DO)
+### Main keys not implemented (TO-DO)
 
 - Not responsive for all screen sizes
 - CSS Grid is not optimized for IE 10/11
