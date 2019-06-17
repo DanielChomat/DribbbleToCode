@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" media="all" href="URL" />
+
 # Welcome to Dribbble To Code
 
 My name is Daniel, a junior web developer, coder and designer(maybe on that last one).
@@ -9,7 +10,7 @@ This project is mainly meant to be used as part of my portfolio for participatio
 
 Occasionally, I will be putting here projects, I've been working on outside of Dribbble.
 
-![Craftwork Market](https://github.com/Daniiik/DribbbleToCode/blob/master/Craftwork%20Market%20reDesign/template.png | height=100)
+![Craftwork Market](https://github.com/Daniiik/DribbbleToCode/blob/master/Craftwork%20Market%20reDesign/template.png#thumbnail)
 
 ### Markdown
 
