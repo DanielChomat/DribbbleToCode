@@ -10,9 +10,18 @@ This project is mainly meant to be used as part of my portfolio for participatio
 
 Occasionally, I will be putting here projects, I've been working on outside of Dribbble.
 
-<!-- [Craftwork Market](https://dribbble.com/shots/6298606-Craftwork-Market-reDesign/attachments/1349002) -->
+##[Craftwork Market | reDesign](https://dribbble.com/shots/6298606-Craftwork-Market-reDesign)
 
-##
+This is the first Dribbble I have decided to work on. It is pretty basic, but very nicely done.
+
+I have finally got an opportunity to practice my CSS Grid knowledge. This technology is awesome, and therefore may be overused in this project.
+
+###Main keys not implemented (TO-DO)
+
+- Not responsive for all screen sizes
+- CSS Grid is not optimized for IE 10/11
+
+
 
 ### Markdown
 
@@ -45,3 +54,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+<!-- [Craftwork Market](https://dribbble.com/shots/6298606-Craftwork-Market-reDesign/attachments/1349002) -->
