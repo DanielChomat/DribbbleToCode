@@ -16,7 +16,7 @@ Occasionally, I will be putting here projects, I've been working on outside of D
 
 > I am open to any suggestions / questions reagarding my code! Just slide into my DMs on Instagram [@DribbbleToCode](https://instagram.com/DribbbleToCode)! 
 
-## 1. [Craftwork Market | reDesign](https://dribbble.com/shots/6298606-Craftwork-Market-reDesign)
+## [1. Craftwork Market | reDesign](https://dribbble.com/shots/6298606-Craftwork-Market-reDesign)
 
 This is the first Dribbble I have decided to work on. It is pretty basic, but very nicely done.
 
@@ -34,7 +34,7 @@ I have finally got an opportunity to practice my **CSS Grid** knowledge. This te
 - [ ] Not responsive for all screen sizes
 - [ ] CSS Grid is not optimized for IE 10/11
 
-## 2. [Doorep landing page](https://dribbble.com/shots/3707539-Doorep-landing-page)
+## [2. Doorep landing page](https://dribbble.com/shots/3707539-Doorep-landing-page)
 
 This is the second Dribbble I will be working on
 
