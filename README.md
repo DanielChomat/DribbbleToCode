@@ -10,7 +10,9 @@ This project is mainly meant to be used as part of my portfolio for participatio
 
 Occasionally, I will be putting here projects, I've been working on outside of Dribbble.
 
-![Craftwork Market](https://github.com/Daniiik/DribbbleToCode/blob/master/Craftwork%20Market%20reDesign/template.png)
+<!-- [Craftwork Market](https://dribbble.com/shots/6298606-Craftwork-Market-reDesign/attachments/1349002) -->
+
+##
 
 ### Markdown
 
