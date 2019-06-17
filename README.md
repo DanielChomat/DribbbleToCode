@@ -24,6 +24,7 @@ I have finally got an opportunity to practice my **CSS Grid** knowledge. This te
 
 ### Links 
 
+- [Dribbble](https://dribbble.com/shots/6298606-Craftwork-Market-reDesign)
 - [Final product](https://daniiik.github.io/DribbbleToCode/Craftwork%20Market%20reDesign/)
 - [Code](https://github.com/Daniiik/DribbbleToCode/tree/master/Craftwork%20Market%20reDesign)
 
@@ -38,6 +39,9 @@ I have finally got an opportunity to practice my **CSS Grid** knowledge. This te
 
 This is the second Dribbble I will be working on
 
+### Links 
+
+- [Doorep landing page](https://dribbble.com/shots/3707539-Doorep-landing-page)
 
 ## Key References
 
