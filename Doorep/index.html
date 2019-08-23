@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,34 @@
     <title>Dribbble To Code project</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+
+<body class="site" id="main">
+    <header class="header header--main">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" hidden>
+
+        <label for="navi-toggle" class="navigation__mobile-toggle">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <nav class="navigation">
+            <a href="./" class="navigation__logo">
+                <img src="img/logo.svg" alt="Marila logo" class="logo" />
+            </a>
+
+            <ul class="navigation__list" id="js-menu">
+                <li class="navigation__item">
+                    <a href="./" class="navigation__link" data-anchor="header">I am a landlord</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#produkty" class="navigation__link" data-anchor="produkty">Login</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#soutez" class="navigation__link" data-anchor="soutez">English</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     Hello!
 </body>
+
 </html>

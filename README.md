@@ -68,6 +68,7 @@ This is the second Dribbble I will be working on
 - Windows 10 machine
 - Windows Subsystem for Linux (`WSL`)
 - `VS Code` 
+- `Avocode`
 - `npm`
   - `node-sass`
   - `autoprefixer`
