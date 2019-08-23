@@ -30,8 +30,6 @@ I have finally got an opportunity to practice my **CSS Grid** knowledge. This te
 
 ### Main keys not yet implemented (TO-DO)
 
-- [ ] Clean your code!
-- [ ] COMMENT YOUR CODE!
 - [ ] Not responsive for all screen sizes
 - [ ] CSS Grid is not optimized for IE 10/11
 
