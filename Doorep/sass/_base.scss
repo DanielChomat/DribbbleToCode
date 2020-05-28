@@ -10,9 +10,35 @@ $color-grey-dark-2: #464646;
 $color-grey-dark-3: #6c6c6c;
 
 $color-black: #292929;
-$color-white: #fff;
+$color-white: #f9f9f9;
 
 $padding-general-side: 8vw;
+
+$font-face: 'Roboto', sans-serif;
+
+// @font-face {
+// 	font-family: 'Roboto';
+// 	font-weight: thin;
+// 	src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+// }
+
+// @font-face {
+// 	font-family: 'Roboto';
+// 	font-weight: normal;
+// 	src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+// }
+
+// @font-face {
+// 	font-family: 'Roboto';
+// 	font-weight: 500;
+// 	src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+// }
+
+// @font-face {
+// 	font-family: 'Roboto';
+// 	font-weight: 700;
+// 	src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+// }
 
 // RESPONSIVE BREAKPOINTS
 $bp-largestest: #{(1600/16)}em; // 1200px / 16 = 75em
@@ -35,22 +61,23 @@ $bp-smallest: #{(350/16)}em; // 600px / 16 = 37.5em
 
 html {
 	box-sizing: border-box;
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
-ul, ol {
+ul,
+ol {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: normal;
-    line-height: 1.6rem;
-    color: $color-black;
+	font-family: $font-face;
+	font-weight: normal;
+	line-height: 1.6rem;
+	background-color: $color-white;
+	color: $color-black;
 }
-
 
 /*  */
 /* Utility Classes */
